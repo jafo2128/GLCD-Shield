@@ -19,4 +19,4 @@ http://www.watterott.com/en/Arduino-GLCD-Shield
 * [Firmware](https://github.com/watterott/MI0283QT-Adapter/tree/master/fw)
 * [Update Guide](https://github.com/watterott/MI0283QT-Adapter/tree/master/fw/update_guide)
 * [Arduino Examples](https://github.com/watterott/MI0283QT-Adapter/tree/master/fw/examples)
-* [Command Description](https://github.com/watterott/MI0283QT-Adapter/blob/master/fw/docu.md)
+* [Command Description](https://github.com/watterott/MI0283QT-Adapter/tree/master/fw/docu)
