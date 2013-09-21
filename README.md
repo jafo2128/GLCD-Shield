@@ -17,6 +17,10 @@ Shop:
 * 3V3 - 5V tolerant IOs
 
 
+## Hardware
+![GLCD-Shield hardware dia](https://raw.github.com/watterott/GLCD-Shield/master/img/hw_dia.png)
+
+
 ## Software
 * [Firmware](https://github.com/watterott/MI0283QT-Adapter/tree/master/fw)
 * [Update Guide](https://github.com/watterott/MI0283QT-Adapter/tree/master/fw/update_guide)
