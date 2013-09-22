@@ -14,7 +14,7 @@ Shop:
 * Controller: NXP LPC1114 ARM Cortex-M0 with Open-Source Firmware
 * Interface: UART, I2C, SPI/SSI
 * Backlight dimmable
-* 3V3 - 5V tolerant IOs
+* 3.3V - 5V tolerant IOs
 
 
 ## Hardware
