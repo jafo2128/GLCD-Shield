@@ -22,7 +22,8 @@ Shop:
 
 
 ## Software
-* [Firmware](https://github.com/watterott/MI0283QT-Adapter/tree/master/fw)
-* [Update Guide](https://github.com/watterott/MI0283QT-Adapter/tree/master/fw/update_guide)
-* [Arduino Examples](https://github.com/watterott/MI0283QT-Adapter/tree/master/fw/examples)
+* [Firmware Source Code](https://github.com/watterott/MI0283QT-Adapter/tree/master/fw)
+* [Firmware Update Guide](https://github.com/watterott/MI0283QT-Adapter/blob/master/fw/update_guide/README.md)
+* [General Arduino Examples](https://github.com/watterott/MI0283QT-Adapter/tree/master/fw/examples)
+* [Arduino Library with Examples](https://github.com/watterott/Arduino-Libs)
 * [Command Description](https://github.com/watterott/MI0283QT-Adapter/tree/master/fw/docu)
