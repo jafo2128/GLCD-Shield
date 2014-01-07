@@ -12,8 +12,8 @@ Shop:
 * Color display with 128x128 pixel
 * Rotary-Encoder or Joystick / Navigation-Switch
 * Controller: NXP LPC1114 ARM Cortex-M0 with Open-Source Firmware
-* Interface: UART, I2C, SPI/SSI
-* Backlight dimmable
+* Interface: UART, I2C, SPI/SSI (Mode 3, up to 4MHz)
+* Backlight dimmable via interface
 * 3.3V - 5V tolerant IOs
 
 
@@ -26,4 +26,4 @@ Shop:
 * [Firmware Update Guide](https://github.com/watterott/MI0283QT-Adapter/blob/master/fw/update_guide/README.md)
 * [General Arduino Examples](https://github.com/watterott/MI0283QT-Adapter/tree/master/fw/examples)
 * [Arduino Library with Examples](https://github.com/watterott/Arduino-Libs)
-* [Command Description](https://github.com/watterott/MI0283QT-Adapter/tree/master/fw/docu)
+* [Command Description](https://github.com/watterott/MI0283QT-Adapter/blob/master/fw/docu/README.md)
