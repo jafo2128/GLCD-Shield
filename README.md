@@ -18,12 +18,13 @@ Shop:
 
 
 ## Hardware
-![GLCD-Shield hardware dia](https://raw.github.com/watterott/GLCD-Shield/master/img/hw_dia.png)
+* ![GLCD-Shield hardware dia](https://raw.github.com/watterott/GLCD-Shield/master/img/hw_dia.png)
+* [Schematics + Layout](https://github.com/watterott/GLCD-Shield/tree/master/pcb)
 
 
 ## Software
-* [Firmware Source Code](https://github.com/watterott/MI0283QT-Adapter/tree/master/fw)
-* [Firmware Update Guide](https://github.com/watterott/MI0283QT-Adapter/blob/master/fw/update_guide/README.md)
 * [General Arduino Examples](https://github.com/watterott/MI0283QT-Adapter/tree/master/fw/examples)
 * [Arduino Library with Examples](https://github.com/watterott/Arduino-Libs)
+* [Firmware Source Code](https://github.com/watterott/MI0283QT-Adapter/tree/master/fw)
+* [Firmware Update Guide](https://github.com/watterott/MI0283QT-Adapter/blob/master/fw/update_guide/README.md)
 * [Command Description](https://github.com/watterott/MI0283QT-Adapter/blob/master/fw/docu/README.md)
