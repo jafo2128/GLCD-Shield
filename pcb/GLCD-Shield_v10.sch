@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14206,7 +14206,7 @@ EC12E series with push-on switch</description>
 <part name="LOGO1" library="OSHW" deviceset="OSHW_LOGO_6MIL" device="X0100-NT"/>
 <part name="A1" library="Arduino" deviceset="UNO" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="U1" library="Voltage-Reg" deviceset="TS5204" device=""/>
+<part name="U1" library="Voltage-Reg" deviceset="TS5204" device="" value="TS5204-3V3"/>
 <part name="ENC" library="Encoder-IR" deviceset="EC12E_SW" device=""/>
 <part name="LCD" library="Display" deviceset="UG12D228AA" device=""/>
 <part name="ARM" library="ARM" deviceset="LPC111X" device="" value="LPC1114FBD48"/>
