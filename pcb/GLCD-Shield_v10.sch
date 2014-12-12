@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4618,51 +4618,6 @@ reflow soldering</description>
 <connect gate="G$1" pin="VI" pad="2"/>
 <connect gate="G$1" pin="VO" pad="1"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="frames">
-<packages>
-</packages>
-<symbols>
-<symbol name="A4L-LOC">
-<wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="3.81" x2="246.38" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="8.89" x2="215.265" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
-<text x="217.17" y="15.24" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
-<text x="217.17" y="10.16" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
-<text x="230.505" y="5.08" size="2.54" layer="94" font="vector">&gt;SHEET</text>
-<text x="216.916" y="4.953" size="2.54" layer="94" font="vector">Sheet:</text>
-<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="A4L-LOC" prefix="FRAME" uservalue="yes">
-<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
-DIN A4, landscape with location and doc. field</description>
-<gates>
-<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -14141,6 +14096,52 @@ EC12E series with push-on switch</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="we-symbol">
+<description>Symbols, Logos...</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="A4L-LOC">
+<wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="3.81" x2="246.38" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
+<text x="217.17" y="15.24" size="2.032" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="217.17" y="10.16" size="2.032" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="230.505" y="5.08" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="217.17" y="5.08" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="217.17" y="20.32" size="2.032" layer="94" font="vector">www.watterott.com</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FRAME-A4L" prefix="FRAME" uservalue="yes">
+<description>Frame: DIN A4 Landscape</description>
+<gates>
+<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14152,7 +14153,6 @@ EC12E series with push-on switch</description>
 </classes>
 <parts>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="3V3" library="jumper" deviceset="SJ2W" device=""/>
@@ -14213,6 +14213,7 @@ EC12E series with push-on switch</description>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="2" library="jumper" deviceset="SJ" device=""/>
 <part name="RST" library="jumper" deviceset="SJ" device=""/>
+<part name="FRAME1" library="we-symbol" deviceset="FRAME-A4L" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14220,9 +14221,9 @@ EC12E series with push-on switch</description>
 <wire x1="120.015" y1="19.05" x2="122.047" y2="19.05" width="0.8128" layer="94"/>
 <wire x1="71.755" y1="137.16" x2="73.025" y2="137.16" width="0.4064" layer="94"/>
 <wire x1="132.08" y1="159.385" x2="132.08" y2="160.655" width="0.4064" layer="94"/>
-<text x="161.29" y="31.75" size="1.27" layer="95">Released under the Creative Commons Attribution Share-Alike License</text>
-<text x="161.29" y="29.21" size="1.27" layer="95">http://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="161.29" y="25.4" size="1.27" layer="95">Designed by Andreas Watterott (Watterott electronic)</text>
+<text x="162.56" y="21.59" size="1.27" layer="95">Released under the Creative Commons Attribution Share-Alike License</text>
+<text x="162.56" y="19.05" size="1.27" layer="95">http://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="162.56" y="15.24" size="1.27" layer="95">Designed by Andreas Watterott (Watterott electronic)</text>
 <text x="45.72" y="166.37" size="3.81" layer="250">Arduino</text>
 <text x="222.25" y="85.725" size="2.54" layer="250">FTDI Connector</text>
 <text x="222.25" y="81.915" size="2.54" layer="250">for Firmware Update</text>
@@ -14249,11 +14250,6 @@ EC12E series with push-on switch</description>
 <instance part="GND9" gate="1" x="93.98" y="8.89" smashed="yes">
 <attribute name="VALUE" x="91.44" y="6.35" size="1.778" layer="96"/>
 </instance>
-<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
-<attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.54" layer="94" font="vector"/>
-<attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94" font="vector"/>
-<attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94" font="vector"/>
-</instance>
 <instance part="GND10" gate="1" x="140.97" y="8.89" smashed="yes">
 <attribute name="VALUE" x="138.43" y="6.35" size="1.778" layer="96"/>
 </instance>
@@ -14270,9 +14266,9 @@ EC12E series with push-on switch</description>
 <instance part="GND4" gate="1" x="82.55" y="146.05" smashed="yes">
 <attribute name="VALUE" x="80.01" y="143.51" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="G$1" x="166.37" y="19.05"/>
-<instance part="X2" gate="G$1" x="173.99" y="19.05"/>
-<instance part="X3" gate="G$1" x="181.61" y="19.05"/>
+<instance part="X1" gate="G$1" x="165.1" y="7.62" smashed="yes"/>
+<instance part="X2" gate="G$1" x="170.18" y="7.62" smashed="yes"/>
+<instance part="X3" gate="G$1" x="175.26" y="7.62" smashed="yes"/>
 <instance part="GND8" gate="1" x="121.92" y="55.88" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="119.38" y="53.34" size="1.778" layer="96" rot="MR90"/>
 </instance>
@@ -14292,7 +14288,7 @@ EC12E series with push-on switch</description>
 <attribute name="NAME" x="106.426" y="13.462" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="102.87" y="8.763" size="1.778" layer="96"/>
 </instance>
-<instance part="LOGO1" gate="G$1" x="201.93" y="11.43"/>
+<instance part="LOGO1" gate="G$1" x="198.12" y="7.62"/>
 <instance part="A1" gate="G$1" x="46.99" y="137.16"/>
 <instance part="GND14" gate="1" x="24.13" y="142.24" smashed="yes" rot="R270">
 <attribute name="VALUE" x="21.59" y="144.78" size="1.778" layer="96" rot="R270"/>
@@ -14403,7 +14399,7 @@ EC12E series with push-on switch</description>
 <instance part="ISP" gate="G$1" x="240.03" y="72.39" smashed="yes" rot="R270">
 <attribute name="NAME" x="237.49" y="78.74" size="1.778" layer="95"/>
 </instance>
-<instance part="U$1" gate="G$1" x="201.93" y="19.05"/>
+<instance part="U$1" gate="G$1" x="208.28" y="7.62"/>
 <instance part="7" gate="1" x="72.39" y="137.16" smashed="yes">
 <attribute name="NAME" x="78.105" y="135.89" size="1.778" layer="95"/>
 <attribute name="VALUE" x="69.85" y="133.35" size="1.778" layer="96"/>
@@ -14420,7 +14416,7 @@ EC12E series with push-on switch</description>
 <attribute name="NAME" x="78.105" y="125.73" size="1.778" layer="95"/>
 <attribute name="VALUE" x="69.85" y="123.19" size="1.778" layer="96"/>
 </instance>
-<instance part="X4" gate="G$1" x="189.23" y="19.05"/>
+<instance part="X4" gate="G$1" x="180.34" y="7.62" smashed="yes"/>
 <instance part="SW" gate="Q$1" x="35.56" y="16.51"/>
 <instance part="GND12" gate="1" x="48.26" y="8.89" smashed="yes" rot="R90">
 <attribute name="VALUE" x="50.8" y="6.35" size="1.778" layer="96" rot="R90"/>
@@ -14433,6 +14429,7 @@ EC12E series with push-on switch</description>
 <attribute name="NAME" x="134.112" y="161.925" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="135.89" y="157.48" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="FRAME1" gate="G$1" x="0" y="0"/>
 </instances>
 <busses>
 </busses>
