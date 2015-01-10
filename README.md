@@ -5,7 +5,7 @@ Shop:
 [GLCD-Shield with Rotary-Encoder](http://www.watterott.com/en/Arduino-GLCD-Shield), 
 [GLCD-Shield with Joystick](http://www.watterott.com/en/Arduino-GLCD-Shield-Joystick)
 
-[![GLCD-Shield](https://raw.github.com/watterott/GLCD-Shield/master/img/glcd-shield.jpg)](http://www.watterott.com/en/Arduino-GLCD-Shield-Joystick)
+[![GLCD-Shield](https://raw.github.com/watterott/GLCD-Shield/master/pcb/GLCD-Shield_v10.jpg)](http://www.watterott.com/en/Arduino-GLCD-Shield-Joystick)
 
 
 ## Features
