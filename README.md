@@ -1,5 +1,5 @@
 # GLCD-Shield
-The GLCD-Shield is a plug-on module with color display (128x128 pixel) and rotary encoder/navigation switch for Arduino.
+The GLCD-Shield is a plug-on module with color display (128x128 pixel) and rotary encoder/navigation switch for Arduino/Genuino.
 
 [![GLCD-Shield](https://raw.github.com/watterott/GLCD-Shield/master/pcb/GLCD-Shield_v10.jpg)](http://www.watterott.com/en/Arduino-GLCD-Shield-Joystick)
 
