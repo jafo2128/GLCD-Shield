@@ -1,7 +1,7 @@
 # GLCD-Shield
 The GLCD-Shield is a plug-on module with color display (128x128 pixel) and rotary encoder/navigation switch for Arduino/Genuino.
 
-[![GLCD-Shield](https://raw.github.com/watterott/GLCD-Shield/master/pcb/GLCD-Shield_v10.jpg)](http://www.watterott.com/en/Arduino-GLCD-Shield-Joystick)
+[![GLCD-Shield](https://github.com/watterott/GLCD-Shield/raw/master/hardware/GLCD-Shield_v10.jpg)](http://www.watterott.com/en/Arduino-GLCD-Shield-Joystick)
 
 ## Shop
 * [GLCD-Shield with Rotary-Encoder](http://www.watterott.com/en/Arduino-GLCD-Shield)
@@ -18,13 +18,13 @@ The GLCD-Shield is a plug-on module with color display (128x128 pixel) and rotar
 
 
 ## Hardware
-* ![GLCD-Shield hardware dia](https://raw.github.com/watterott/GLCD-Shield/master/img/hw_dia.png)
-* [Schematics + Layout](https://github.com/watterott/GLCD-Shield/tree/master/pcb)
+* ![GLCD-Shield hardware dia](https://github.com/watterott/GLCD-Shield/raw/master/img/hw_dia.png)
+* [Schematics + Layout](https://github.com/watterott/GLCD-Shield/tree/master/hardware)
 
 
 ## Software
-* [General Arduino Examples](https://github.com/watterott/MI0283QT-Adapter/tree/master/fw/examples)
+* [General Arduino Examples](https://github.com/watterott/MI0283QT-Adapter/tree/master/firmware/examples)
 * [Arduino Library and Examples](https://github.com/watterott/Arduino-Libs)
-* [Firmware Source Code](https://github.com/watterott/MI0283QT-Adapter/tree/master/fw)
-* [Firmware Update Guide](https://github.com/watterott/MI0283QT-Adapter/blob/master/fw/update_guide/README.md)
-* [Command Description](https://github.com/watterott/MI0283QT-Adapter/blob/master/fw/docu/README.md)
+* [Firmware Source Code](https://github.com/watterott/MI0283QT-Adapter/tree/master/firmware)
+* [Firmware Update Guide](https://github.com/watterott/MI0283QT-Adapter/blob/master/firmware/update_guide/README.md)
+* [Command Description](https://github.com/watterott/MI0283QT-Adapter/blob/master/firmware/docu/README.md)
